@@ -1,5 +1,7 @@
 language: ruby
 rvm: 2.1.7
+before_script:
+  - mkdir _site
 install:
-  - git clone https://github.com/edap/edap.github.com.git
+  - git clone https://github.com/edap/edap.github.com.git --branch master _site
 script: "bundle exec jekyll build"
