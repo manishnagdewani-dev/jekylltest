@@ -4,6 +4,6 @@ before_script:
  - cd _site
 install:
   - git clone https://github.com/edap/edap.github.com.git --branch master _site
-  - gem install jekyll -v '3.7.0'
+  - gem install jekyll -v '3.5.0'
 script:
  - "bundle exec jekyll build"
