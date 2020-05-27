@@ -1,0 +1,6 @@
+language: ruby
+rvm: 2.1.7
+install:
+  - git clone https://github.com/edap/edap.github.com.git
+  - cd edap
+script: "bundle exec jekyll build"
